@@ -37,7 +37,7 @@ def get_products(db: Session = Depends(get_db)):
 
 #Crear nuevo producto
 @app.post("/products", response_model=schemas.Product)
-def create_product(product: schemas.ProductCreate, db: Session = Depends(get_db)):
+def create_product(product: schemas.CreateProduct, db: Session = Depends(get_db)):
     db_product = models.Product(
         name=product.name, 
         price=product.price, 
