@@ -1,6 +1,6 @@
 # TechnicalTest
 ERP Test
-API para gestion de inventario desarrollada para la prueba tecnica de SAISA. Administra productos y revisa stock utilizando local db.
+API para gestion de inventario desarrollada para una prueba tecnica. Administra productos y revisa stock utilizando local db.
 
 ## Instalacion y ejecucion
 1. Clona repo
